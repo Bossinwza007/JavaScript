@@ -25,6 +25,6 @@ const convert = (text) => {
     else if((text == 'zero')) number = 0;
     return number;
 }
-console.log("one + 1 = "+equation('one + one',convert));
+console.log("one + one = "+equation('one + one',convert));
 console.log("seven * four - two = "+equation('seven * four - two',convert));
 console.log("one + one + one + one + one = "+equation('one + one + one + one + one',convert));
