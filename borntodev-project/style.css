@@ -1,21 +1,23 @@
-
-body{
-    background-color:aqua;
+body {
+    background-color: aqua;
     font-family: TH sarabunPSK;
-    color:white;
+    color: white;
 }
-#btn{
+
+#btn {
     margin: 10px auto auto auto;
     display: block;
     width: 100px;
     height: 30px;
     font-size: 20px
 }
-h1{
+
+h1 {
     text-align: center;
     width: 100%;
 }
-#degree{
+
+#degree {
     width: 300px;
     height: 30px;
 }
