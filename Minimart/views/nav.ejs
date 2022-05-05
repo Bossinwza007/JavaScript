@@ -1,0 +1,25 @@
+
+<% if( (locals.status) == 'admin' ) {%>
+
+    <%- include('Navadmin')%>
+
+
+        <% }else{ %>
+
+<div class="navigation">
+    <nav class="navbar navbar-expand mt" id="Nav">
+        <div class="container">
+            <a href="#" class="l text-decoration">Mini Market</a>
+        </div>
+        <ul class="navbar-nav ml-auto">
+            </li>
+            <li class="nav-item">
+                <a href="/" class="nav-link colorFFF">Login</a>
+            </li>
+            <li class="nav-item">
+                <a href="register" class="nav-link colorFFF">Register</a>
+            </li>
+        </ul>
+    </nav>
+</div>
+<% } %>
